@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>myLinkBlog</title>
+		<urInstant>http://instantoutliner.com/gu</urInstant>
+		<urlPublic>http://storage2.littleoutliner.com/users/n8wachT/myOutlines/myLinkBlog.opml</urlPublic>
+		<dateModified>Tue, 22 Mar 2022 01:33:17 GMT</dateModified>
+		<expansionState>1,2,3,8,9,18,19,20,23,34,36,41,43,48,49,54,55,58,61,62,63,68,69,70,77,80,87,92,95,99,109,110,115,118,123,124,127,130,136,139,143,145,149,150,151,155,161,163,164,166,167,172,175,176,186,189,194,195,197,198,201,208,215,217,222,223,227,228,233,240,246,253,254,255,258,259</expansionState>
+		<lastCursor>2</lastCursor>
+		<ownerTwitterScreenName>n8wachT</ownerTwitterScreenName>
+		<ownerName>de n8wachT ✨</ownerName>
+		<ownerId>http://twitter.com/n8wachT</ownerId>
+		<urlUpdateSocket>ws://storage2.littleoutliner.com:1242/</urlUpdateSocket>
+		<dateCreated>Sat, 28 Aug 2021 00:40:15 GMT</dateCreated>
+		<urlInstant>http://instantoutliner.com/rr</urlInstant>
+		<urlOpml>http://storage2.littleoutliner.com/users/n8wachT/myOutlines/myLinkBlog.opml</urlOpml>
+		</head>
+	<body>
+		<outline text="maart 2022" created="Tue, 22 Mar 2022 01:33:17 GMT" name="maart2022" type="calendarMonth">
+			<outline text="maart 22" created="Tue, 22 Mar 2022 01:33:18 GMT" type="calendarDay" name="22">
+				<outline text="Tweets from n8wachT on 22-3-2022" created="Tue, 22 Mar 2022 01:33:19 GMT" type="note">
+					<outline text="Original tweets">
+						<outline text="@D66  Als vanuit #overheid nu snel duidelijk signaal komt wat opvang #vluchtelingen #Oekraine doet met je huur/zorg #toeslag en bijvoorbeeld het effect op je inkomen/#belastingen... Dan zijn die volgende 25.000 plekken misschien zo gefixed #OekraineDebat #OekraineCrisis" type="tweet" created="Mon Mar 21 11:08:44 +0000 2022" tweetId="1505863979616378885" tweetUserName="n8wachT"/>
+						</outline>
+					<outline text="Links"/>
+					<outline text="Replies"/>
+					<outline text="RTs"/>
+					</outline>
+				</outline>
+			</outline>
+		<outline text="&lt;html&gt;" created="Thu, 02 Sep 2021 21:56:36 GMT" link="http://radio3.io/users/n8wachT">
+			<outline text="&lt;head&gt;">
+				<outline text="&lt;title&gt;View Linkblog&lt;/title&gt;"/>
+				<outline text="&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;"/>
+				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"/>
+				<outline text="&lt;link href=&quot;http://fargo.io/code/bootstrap.css&quot; rel=&quot;stylesheet&quot;&gt;"/>
+				<outline text="&lt;script src=&quot;http://fargo.io/code/bootstrap.min.js&quot;&gt;&lt;/script&gt;"/>
+				<outline text="&lt;link rel=&quot;stylesheet&quot; href=&quot;http://fargo.io/code/fontAwesome/css/font-awesome.min.css&quot;/&gt;"/>
+				<outline text="&lt;link href=&quot;http://fargo.io/code/ubuntuFont.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"/>
+				<outline text="&lt;script src=&quot;http://fargo.io/code/jquery-1.9.1.min.js&quot;&gt;&lt;/script&gt;"/>
+				<outline text="&lt;script&gt;">
+					<outline text="//utility routines">
+						<outline text="function dateYesterday (d) {">
+							<outline text="return (new Date (new Date (d) - (24 * 60 * 60 * 1000)));"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function dayGreaterThanOrEqual (d1, d2) { ">
+							<outline text="d1 = new Date (d1);"/>
+							<outline text="d1.setHours (0);"/>
+							<outline text="d1.setMinutes (0);"/>
+							<outline text="d1.setSeconds (0);"/>
+							<outline text="d2 = new Date (d2);"/>
+							<outline text="d2.setHours (0);"/>
+							<outline text="d2.setMinutes (0);"/>
+							<outline text="d2.setSeconds (0);"/>
+							<outline text="return (d1 &gt;= d2);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function padWithZeros (num, ctplaces) { ">
+							<outline text="var s = num.toString ();"/>
+							<outline text="while (s.length &lt; ctplaces) {">
+								<outline text="s = &quot;0&quot; + s;"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="return (s);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function filledString (ch, ct) { ">
+							<outline text="var s = &quot;&quot;;"/>
+							<outline text="for (var i = 0; i &lt; ct; i++) {">
+								<outline text="s += ch;"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="return (s);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function trimLeading (s, ch) {">
+							<outline text="while (s.charAt (0) === ch) {">
+								<outline text="s = s.substr (1);"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="return (s);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function beginsWith (s, possibleBeginning, flUnicase) { ">
+							<outline text="if (s.length == 0) { //1/1/14 by DW">
+								<outline text="return (false);"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="if (flUnicase == undefined) {">
+								<outline text="flUnicase = true;"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="if (flUnicase) {">
+								<outline text="for (var i = 0; i &lt; possibleBeginning.length; i++) {">
+									<outline text="if (stringLower (s [i]) != stringLower (possibleBeginning [i])) {">
+										<outline text="return (false);"/>
+										<outline text="}"/>
+										</outline>
+									<outline text="}"/>
+									</outline>
+								<outline text="}"/>
+								</outline>
+							<outline text="else {">
+								<outline text="for (var i = 0; i &lt; possibleBeginning.length; i++) {">
+									<outline text="if (s [i] != possibleBeginning [i]) {">
+										<outline text="return (false);"/>
+										<outline text="}"/>
+										</outline>
+									<outline text="}"/>
+									</outline>
+								<outline text="}"/>
+								</outline>
+							<outline text="return (true);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function stringLower (s) {">
+							<outline text="return (s.toLowerCase ());"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function stringDelete (s, ix, ct) {">
+							<outline text="var start = ix - 1;"/>
+							<outline text="var end = (ix + ct) - 1;"/>
+							<outline text="var s1 = s.substr (0, start);"/>
+							<outline text="var s2 = s.substr (end);"/>
+							<outline text="return (s1 + s2);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function secondsSince (when) { ">
+							<outline text="var now = new Date ();"/>
+							<outline text="when = new Date (when);"/>
+							<outline text="return ((now - when) / 1000);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function urlSplitter (url) {">
+							<outline text="var pattern = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;"/>
+							<outline text="var result = pattern.exec (url);"/>
+							<outline text="if (result == null) {">
+								<outline text="result = [];"/>
+								<outline text="result [5] = url;"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="var splitUrl = {">
+								<outline text="scheme: result [1],"/>
+								<outline text="host: result [3],"/>
+								<outline text="port: result [4],"/>
+								<outline text="path: result [5],"/>
+								<outline text="query: result [6],"/>
+								<outline text="hash: result [7]"/>
+								<outline text="};"/>
+								</outline>
+							<outline text="return (splitUrl);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function readHttpFile (url, callback) { ">
+							<outline text="var jxhr = $.ajax ({ ">
+								<outline text="url: url,"/>
+								<outline text="dataType: &quot;text&quot; , "/>
+								<outline text="timeout: 30000 "/>
+								<outline text="}) "/>
+								</outline>
+							<outline text=".success (function (data, status) { ">
+								<outline text="callback (data);"/>
+								<outline text="}) "/>
+								</outline>
+							<outline text=".error (function (status) { ">
+								<outline text="console.log (&quot;readHttpFile: url == &quot; + url + &quot;, error == &quot; + status.statusText + &quot;.&quot;);"/>
+								<outline text="callback (undefined);"/>
+								<outline text="});"/>
+								</outline>
+							<outline text="}"/>
+							</outline>
+						<outline text="function getDatePath (theDate, flLastSeparator) {">
+							<outline text="if (theDate == undefined) {">
+								<outline text="theDate = new Date ();"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="else {">
+								<outline text="theDate = new Date (theDate); //8/12/14 by DW -- make sure it's a date type"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="if (flLastSeparator == undefined) {">
+								<outline text="flLastSeparator = true;"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="var month = padWithZeros (theDate.getMonth () + 1, 2);"/>
+							<outline text="var day = padWithZeros (theDate.getDate (), 2);"/>
+							<outline text="var year = theDate.getFullYear ();"/>
+							<outline text="if (flLastSeparator) {">
+								<outline text="return (year + &quot;/&quot; + month + &quot;/&quot; + day + &quot;/&quot;);"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="else {">
+								<outline text="return (year + &quot;/&quot; + month + &quot;/&quot; + day);"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="}"/>
+							</outline>
+						</outline>
+					<outline text="function viewLinkblog (idDiv, twitterScreenname, whenLinkblogStart, baseUrl, callback) {">
+						<outline text="var ctDaysOnPage = 25, daysTable;"/>
+						<outline text="function loadOneDay (theDay, callback) {">
+							<outline text="var urlFolder = baseUrl + twitterScreenname + &quot;/&quot;;"/>
+							<outline text="var url = urlFolder + getDatePath (theDay) + &quot;history.json&quot;, whenReadStart = new Date ();"/>
+							<outline text="console.log (&quot;loadOneDay: &quot; + theDay);"/>
+							<outline text="readHttpFile (url, function (jsontext) {">
+								<outline text="if (callback != undefined) {">
+									<outline text="try {">
+										<outline text="var jstruct = JSON.parse (jsontext);"/>
+										<outline text="callback (jstruct);"/>
+										<outline text="}"/>
+										</outline>
+									<outline text="catch (err) {">
+										<outline text="callback ();"/>
+										<outline text="}"/>
+										</outline>
+									<outline text="}"/>
+									</outline>
+								<outline text="});"/>
+								</outline>
+							<outline text="}"/>
+							</outline>
+						<outline text="function loadDaysTable (callback) {">
+							<outline text="var whenBlogStart = dateYesterday (whenLinkblogStart), whenstart = new Date ();"/>
+							<outline text="function loadOne (theDay) {">
+								<outline text="loadOneDay (theDay, function (jstruct) {">
+									<outline text="var yesterday = dateYesterday (theDay);"/>
+									<outline text="if (jstruct != undefined) {">
+										<outline text="daysTable.unshift ({">
+											<outline text="when: theDay,"/>
+											<outline text="jstruct: jstruct"/>
+											<outline text="});"/>
+											</outline>
+										<outline text="}"/>
+										</outline>
+									<outline text="if ((daysTable.length &lt; ctDaysOnPage) &amp;&amp; (dayGreaterThanOrEqual (yesterday, whenBlogStart))) {">
+										<outline text="loadOne (yesterday);"/>
+										<outline text="}"/>
+										</outline>
+									<outline text="else {">
+										<outline text="if (callback != undefined) { //10/24/14 by DW">
+											<outline text="callback ();"/>
+											<outline text="}"/>
+											</outline>
+										<outline text="console.log (&quot;loadDaysTable: &quot; + secondsSince (whenstart) + &quot; secs.&quot;);"/>
+										<outline text="}"/>
+										</outline>
+									<outline text="});"/>
+									</outline>
+								<outline text="}"/>
+								</outline>
+							<outline text="daysTable = new Array ();"/>
+							<outline text="loadOne (new Date ());"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="function addDay (jstruct) {">
+							<outline text="var htmltext = &quot;&quot;, indentlevel = 0;"/>
+							<outline text="var datestring = new Date (jstruct.when).toLocaleDateString ();"/>
+							<outline text="function add (s) {">
+								<outline text="htmltext += filledString (&quot;\t&quot;, indentlevel) + s + &quot;\n&quot;;"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="add (&quot;&lt;div class=\&quot;divLinkblogDayTitle\&quot;&gt;&quot; + datestring + &quot;&lt;/div&gt;&quot;);"/>
+							<outline text="add (&quot;&lt;div class=\&quot;divLinkblogDay\&quot;&gt;&quot;); indentlevel++;"/>
+							<outline text="for (var i = 0; i &lt; jstruct.dayHistory.length; i++) {">
+								<outline text="try {">
+									<outline text="var item = jstruct.dayHistory [i], linktext = &quot;&quot;, icon = &quot;&quot;;"/>
+									<outline text="//set linktext, icon">
+										<outline text="if ((item.link != undefined) &amp;&amp; (item.link.length &gt; 0)) {">
+											<outline text="var splitUrl = urlSplitter (trimLeading (item.link, &quot; &quot;)); //10/15/14 by DW -- remove leading blanks"/>
+											<outline text="var host = splitUrl.host;"/>
+											<outline text="if (beginsWith (host, &quot;www.&quot;)) {">
+												<outline text="host = stringDelete (host, 1, 4);"/>
+												<outline text="}"/>
+												</outline>
+											<outline text="linktext = &quot; &lt;a class=&quot;\&quot; ahost\&quot;&quot;=&quot;&quot; href=&quot;\&quot; &quot;&quot;=&quot;&quot; +=&quot;&quot; item.link=&quot;&quot; &quot;\&quot;=&quot;&quot; target=&quot;\&quot; blank\&quot;&quot;=&quot;&quot;&gt;&quot; + host + &quot;&lt;/a&gt;&quot;;"/>
+											<outline text="}"/>
+											</outline>
+										</outline>
+									<outline text="add (&quot;&lt;p&gt;&quot; + icon + item.text + linktext + &quot;&lt;/p&gt;&quot;);"/>
+									<outline text="}"/>
+									</outline>
+								<outline text="catch (error) {">
+									<outline text="console.log (&quot;appendDay: error == &quot; + error + &quot; while adding item == &quot; + item.text);"/>
+									<outline text="}"/>
+									</outline>
+								<outline text="}"/>
+								</outline>
+							<outline text="add (&quot;&lt;/div&gt;&quot;); indentlevel--;"/>
+							<outline text="$(&quot;#idLinkblogDays&quot;).append (htmltext);"/>
+							<outline text="}"/>
+							</outline>
+						<outline text="loadDaysTable (function () {">
+							<outline text="$(&quot;#idLinkblogDays&quot;).html (&quot;&quot;);"/>
+							<outline text="for (var i = daysTable.length - 1; i &gt;= 0; i--) {">
+								<outline text="addDay (daysTable [i].jstruct);"/>
+								<outline text="}"/>
+								</outline>
+							<outline text="});"/>
+							</outline>
+						<outline text="}"/>
+						</outline>
+					<outline text="function startup () {">
+						<outline text="viewLinkblog (&quot;idLinkblogDays&quot;, &quot;davewiner&quot;, new Date (&quot;9/1/2014&quot;), &quot;http://radio3.io/users/&quot;, function () {">
+							<outline text="});"/>
+							</outline>
+						<outline text="}"/>
+						</outline>
+					<outline text="&lt;/script&gt;"/>
+					</outline>
+				<outline text="&lt;style&gt;">
+					<outline text="body {">
+						<outline text="font-family: Ubuntu;"/>
+						<outline text="font-size: 18px;"/>
+						<outline text="background-color: whitesmoke;"/>
+						<outline text="}"/>
+						</outline>
+					<outline text=".divPageBody {">
+						<outline text="width: 50%;"/>
+						<outline text="margin-top: 80px;"/>
+						<outline text="margin-bottom: 400px;"/>
+						<outline text="margin-left: auto;"/>
+						<outline text="margin-right: auto;"/>
+						<outline text="}"/>
+						</outline>
+					<outline text=".divLinkblogDayTitle {">
+						<outline text="font-family: &quot;Ubuntu&quot;;"/>
+						<outline text="font-size: 22px;"/>
+						<outline text="font-weight: bold;"/>
+						<outline text="margin-bottom: 10px;"/>
+						<outline text="}"/>
+						</outline>
+					<outline text=".divLinkblogDay {">
+						<outline text="font-family: &quot;Ubuntu&quot;;"/>
+						<outline text="font-size: 16px;"/>
+						<outline text="margin-bottom: 40px;"/>
+						<outline text="}"/>
+						</outline>
+					<outline text="&lt;/style&gt;"/>
+					</outline>
+				<outline text="&lt;/head&gt;"/>
+				</outline>
+			<outline text="&lt;body&gt;">
+				<outline text="&lt;div class=&quot;divPageBody&quot;&gt;">
+					<outline text="&lt;div id=&quot;idLinkblogDays&quot;&gt;">
+						<outline text="&lt;/div&gt;"/>
+						</outline>
+					<outline text="&lt;/div&gt;"/>
+					</outline>
+				<outline text="&lt;script&gt;">
+					<outline text="$(document).ready (function () {">
+						<outline text="startup ();"/>
+						<outline text="});"/>
+						</outline>
+					<outline text="&lt;/script&gt;"/>
+					</outline>
+				<outline text="&lt;/body&gt;"/>
+				</outline>
+			<outline text="&lt;/html&gt;"/>
+			</outline>
+		</body>
+	</opml>

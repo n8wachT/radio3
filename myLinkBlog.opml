@@ -198,7 +198,7 @@
 							</outline>
 						</outline>
 					<outline text="function viewLinkblog (idDiv, twitterScreenname, whenLinkblogStart, baseUrl, callback) {">
-						<outline text="var ctDaysOnPage = 25, daysTable;"/>
+						<outline text="var ctDaysOnPage = 25000, daysTable;"/>
 						<outline text="function loadOneDay (theDay, callback) {">
 							<outline text="var urlFolder = baseUrl + twitterScreenname + &quot;/&quot;;"/>
 							<outline text="var url = urlFolder + getDatePath (theDay) + &quot;history.json&quot;, whenReadStart = new Date ();"/>
